@@ -1,0 +1,17 @@
+button{
+    cursor: pointer;
+    margin: 50px;
+
+}
+img{
+    width: 300px;
+}
+#idade{
+    font-size: 40px;
+}
+#classe{
+    font-size: 40px;
+}
+#nome{
+    font-size: 40px;
+}
