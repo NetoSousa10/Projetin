@@ -1,0 +1,23 @@
+body{
+background:linear-gradient(to right, rgb(187, 84, 187), rgb(74, 74, 196));
+background-repeat:no-repeat;
+background-size:cover;
+height: 100%;
+overflow:hidden;
+}
+
+html{
+    height: 100%;
+}
+label{
+    color:white;
+}
+h1{
+    color:white;
+}
+#rei{
+display: none;
+}
+h1{
+    font-size: 3.5rem;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joguin</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <center>
+        <h1>Par ou Impar</h1>
+    <h1>Bom jogo a todos</h1>
+    <input type="text" id="nick1" value="" placeholder="Coloque o seu Nick(Par)">
+    <input type="text" id="nick2" value="" placeholder="Coloque o seu Nick(Impar)">
+    <br>
+    <button onclick="nick()" id="nick">Adicionar</button>
+    <br><br>
+    <input type="number" id="esc1" placeholder="Digite um número">
+    <input type="number" id="esc2" placeholder="Digite um número">
+    <br>
+    <button onclick="jogar()" id="travar" disabled="">Jogar</button>
+    <br>
+    <h2><label id="aviso"></label></h2>
+    <br>
+    <h2><label id="nome1"></label> <label id="placar"></label></h2>
+    <br>
+    <h2><label id="nome2"></label> <label id="placar2"></label></h2>
+    <br>
+    <h2><label id="parabens"></label></h2>
+    <br>
+    <label id="img"></label>
+    <br><br>
+    <button onclick="reiniciar()" id="rei">Reiniciar</button>
+
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>
